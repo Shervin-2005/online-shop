@@ -5,13 +5,14 @@ import './App.css'
 
 
 function App() {
-  
-  return(
-    <div>
-    <Header/>
-    <Body/>
-   </div>
-  );
+
+    return (
+        <div>
+            {/*<Body />*/}
+            
+            <Header />
+        </div>
+    );
 }
 
 export default App
