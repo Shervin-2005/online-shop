@@ -1,17 +1,17 @@
 {
     "slides":[
-        {
-            "src":"https://picsum.photos/seed/img1/600/400",
-            "alt":"Slide Image1"
-        },
-        {
-            "src":"https://picsum.photos/seed/img2/600/400",
-            "alt":"Slide Image2"
-            
-        },
-        {
-            "src":"https://picsum.photos/seed/img3/600/400",
-            "alt":"Slide Image3"
-        }
+      {
+        "src": "https://image.coolblue.nl/max/540xauto/products/1857747",
+        "alt": "Slide Image1"
+      },
+      {
+        "src": "https://tse2.mm.bing.net/th/id/OIP.wi8_0vvGf-HVTgZe9TRAagHaE8?rs=1&pid=ImgDetMain&o=7&rm=3",
+        "alt": "Slide Image2"
+
+      },
+      {
+        "src": "https://i.ebayimg.com/images/g/tvUAAOSwvCZjnbs2/s-l1600.webp",
+        "alt": "Slide Image3"
+      }
     ]
 }
