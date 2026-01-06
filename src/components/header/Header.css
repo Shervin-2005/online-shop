@@ -1,0 +1,109 @@
+/* حذف مارجین و پدینگ پیش‌فرض */
+html,body {
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 100%;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row; 
+    background-color: rgb(103, 139, 192);
+    gap: 750px;
+}
+.icon-Button{
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+}
+
+.left-items{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.right-items{
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-end;
+     gap: 45px;
+}
+.adv-bar img {
+  width: 100%;     
+  height: auto;
+  display: block;
+  line-height: 0;
+
+}
+
+
+
+.logo{
+    width:80px;
+    height: 80px;
+    margin-top: -18px;
+}
+
+.search-bar{
+    width: 500px ;
+    height: 35px;
+}
+
+.divider {
+  width: 2px;        /* ضخامت خط */
+  height: 30px;      /* ارتفاع خط */
+  background-color: #999;
+  margin: 0 15px;    /* فاصله از آیکون‌ها */
+}
+
+
+
+
+.text-button{
+    text-decoration: none;
+    background-color: hwb(221 43% 0%);
+    border-style: none;
+    width: 150px;
+   height: 30px;
+   cursor: pointer;
+  
+}
+
+.text-button:hover{
+    background-color: hwb(221 57% 0%);
+    border-bottom: solid rgb(255, 0, 0);
+    transition: 100ms;
+}
+
+.sticky-navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+    background-color: rgb(103, 171, 192);
+}
+
+
+.Bar{
+   font-size: large;
+}
+
+.enter-city{
+    border-radius: 15%;
+    color: chocolate;
+    border-color: rgb(255, 161, 72);
+    float: right;
+    margin-left: 470px;
+    cursor: pointer;
+}
+.enter-city:hover{
+    background-color: rgb(255, 191, 131);
+}
