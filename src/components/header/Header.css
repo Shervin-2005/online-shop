@@ -14,12 +14,13 @@ html,body {
     display: flex;
     flex-direction: row; 
     background-color: rgb(103, 139, 192);
-    gap: 750px;
+    gap: 250px;
+    height: 40px;
 }
 .icon-Button{
     text-decoration: none;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 }
 
 .left-items{
@@ -27,35 +28,44 @@ html,body {
     flex-direction: row;
     margin: 5px;
     gap: 15px;
-    justify-content: center;
+    justify-content:end;
     align-items: center;
+    position: relative;
+    left: 100px;
+    
 }
 .right-items{
      display: flex;
      flex-direction: row;
      align-items: center;
-     justify-content: flex-end;
-     gap: 45px;
+     justify-content: right;
+     gap: 50px;
+     margin-left:200px ;
+    
 }
 .adv-bar img {
   width: 100%;     
   height: auto;
   display: block;
   line-height: 0;
+  height: 37px;
 
 }
 
 
 
 .logo{
-    width:80px;
-    height: 80px;
-    margin-top: -18px;
+    width:70px;
+    height: 70px;
+    margin-top: -25px;
+    
 }
 
 .search-bar{
-    width: 500px ;
-    height: 35px;
+    width: 370px ;
+    height: 30px;
+    position: relative;
+    left: 35px;
 }
 
 .divider {
@@ -72,10 +82,9 @@ html,body {
     text-decoration: none;
     background-color: hwb(221 43% 0%);
     border-style: none;
-    width: 150px;
+    width: 100px;
    height: 30px;
    cursor: pointer;
-  
 }
 
 .text-button:hover{
@@ -89,11 +98,13 @@ html,body {
     flex-direction: row;
     justify-content: flex;
     background-color: rgb(103, 171, 192);
+    width: 100%;
+    height: 30px;
 }
 
 
 .Bar{
-   font-size: large;
+   font-size: small;
 }
 
 .enter-city{
@@ -106,4 +117,10 @@ html,body {
 }
 .enter-city:hover{
     background-color: rgb(255, 191, 131);
+}
+
+.sticky-nav-number{
+    list-style: none;
+    position: relative;
+    left: 100px;
 }

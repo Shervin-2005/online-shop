@@ -13,7 +13,6 @@ function Header()
 {
     return(
         <header className="header">  
-        <div className="fixed-nav">
         <AdvBar> 
             {<img src={Adv1Img} alt="Adv1"/>}
         </AdvBar>
@@ -41,7 +40,6 @@ function Header()
             </Navbar>
            </div>
         </nav>
-        </div>
         <nav className="sticky-navbar">
 <StickyNavbar>
 <span className="Bar">☰</span>  Products Sort
