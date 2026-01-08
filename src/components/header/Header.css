@@ -1,126 +1,117 @@
-/* حذف مارجین و پدینگ پیش‌فرض */
-html,body {
-  margin: 0;
-  padding: 0;
+.html ,body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(67, 75, 85);
 }
-
-.header{
+.adv-bar{
     display: flex;
-    flex-direction: column;
-    position: fixed;
+    align-items: flex-start;
+    margin-bottom: 10px;
     width: 100%;
 }
-.nav-bar{
+.adv-bar img{
     display: flex;
-    flex-direction: row; 
-    background-color: rgb(103, 139, 192);
-    gap: 250px;
-    height: 40px;
-}
-.icon-Button{
-    text-decoration: none;
-    width: 20px;
-    height: 20px;
-}
+    width: auto;
+    height: auto;
+    max-width: 100%;
 
-.left-items{
+}
+.navbar{
+   
     display: flex;
-    flex-direction: row;
-    margin: 5px;
-    gap: 15px;
-    justify-content:end;
     align-items: center;
-    position: relative;
-    left: 100px;
-    
-}
-.right-items{
-     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: right;
-     gap: 50px;
-     margin-left:200px ;
-    
-}
-.adv-bar img {
-  width: 100%;     
-  height: auto;
-  display: block;
-  line-height: 0;
-  height: 37px;
+    max-width:100%;
+    height: 50px;
+   padding: 0px 15px;
+   margin-bottom: -15px;
 
 }
 
 
-
-.logo{
-    width:70px;
-    height: 70px;
-    margin-top: -25px;
-    
-}
-
-.search-bar{
-    width: 370px ;
-    height: 30px;
-    position: relative;
-    left: 35px;
-}
-
-.divider {
-  width: 2px;        /* ضخامت خط */
-  height: 30px;      /* ارتفاع خط */
-  background-color: #999;
-  margin: 0 15px;    /* فاصله از آیکون‌ها */
-}
-
-
-
-
-.text-button{
-    text-decoration: none;
-    background-color: hwb(221 43% 0%);
-    border-style: none;
-    width: 100px;
-   height: 30px;
-   cursor: pointer;
-}
-
-.text-button:hover{
-    background-color: hwb(221 57% 0%);
-    border-bottom: solid rgb(255, 0, 0);
-    transition: 100ms;
-}
-
-.sticky-navbar{
+.search-box{
     display: flex;
-    flex-direction: row;
-    justify-content: flex;
-    background-color: rgb(103, 171, 192);
-    width: 100%;
-    height: 30px;
+    justify-content: flex-start;
+    background: #57a5ff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 550px;
+    height: 20px;
+    margin: 0px;
 }
-
-
-.Bar{
-   font-size: small;
+.search-box input{
+    padding: 6px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 18px;
+    max-width: 200pxf;
 }
-
-.enter-city{
-    border-radius: 15%;
-    color: chocolate;
-    border-color: rgb(255, 161, 72);
-    float: right;
-    margin-left: 470px;
-    cursor: pointer;
+.search-box input::placeholder{
+    color: #5f5959c4;
 }
-.enter-city:hover{
-    background-color: rgb(255, 191, 131);
+.navbar-left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    margin-left: 100px;
 }
-
-.sticky-nav-number{
+.navbar-left img{
+    width: 100px;
+    height: auto;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: 100px;
+}
+.navbar-right img{
+    width: 35px;
+    height: 35px;
+}
+.nav-divider {
+    width: 1px;
+    height: 24px;
+    background-color: #b0b0b0;
+    margin: 0 16px;
+}
+.sticky-navbar{
+    max-width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content:flex-start;
+    border-bottom: 1px solid #3f2d2d94;
+}
+.sticky-navbar ul{
+    display: flex;
+    gap: 25px;
     list-style: none;
+<<<<<<< HEAD
     position: relative;
     left: 100px;r
+=======
+    margin-left: 130px;
+    padding: 12px 20px;
+>>>>>>> devshervin
 }
+.sticky-navbar a{
+    text-decoration: none;
+    color: #339fa3;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+#select-city{
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: 140px;
+    border-radius: 15px;
+    background-color: rgb(255, 188, 112);
+    color: rgb(255, 68, 0);
+}
+
+
+
