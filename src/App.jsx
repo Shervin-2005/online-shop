@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./components/header/Header";
+import Header from "./components/header/Header.jsx";
 import Body from "./components/body/body";
 import './App.css'
 
@@ -7,10 +7,7 @@ import './App.css'
 function App() {
   
   return(
-    <div>
     <Header/>
-    <Body/>
-   </div>
   );
 }
 

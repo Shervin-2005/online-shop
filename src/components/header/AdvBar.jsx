@@ -1,11 +1,12 @@
-import './Header.css'
+import React from 'react';
+import  './Header.css';
 
 function AdvBar(props){
-    return(
-    <div className="adv-bar"> 
-           {props.children}
+  return (
+    <div className="adv-bar">
+    {props.children}
     </div>
-    );
+  );
 }
 
-export default AdvBar
+export default AdvBar;
